@@ -56,8 +56,10 @@ main {
 
 
 .card {
+    position: relative;
+    top:2rem;
     display: flex;
-    width: min(100%, 700px);
+    width: min(100%, 800px);
 }
 
 .card__item{
@@ -117,7 +119,11 @@ main {
     font-family: var(--ff-text);
     border-radius: var(--border-rounded-btn);
 }
-
+.btn:hover {
+    Background-color: transparent;
+    color: #fff;
+    border: 2px solid white;
+}
 
 .footer {
     position: relative;
