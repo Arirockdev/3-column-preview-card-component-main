@@ -57,7 +57,7 @@ main {
 
 .card {
     position: relative;
-    top:2rem;
+    top: 2rem;
     display: flex;
     width: min(100%, 800px);
 }
